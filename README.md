@@ -13,11 +13,17 @@ If a user inputs a number 10 then the javascript function returns አስር whic
 
 # Test
 Input : 10523
+
 Amharic: አስር ሺህ አምስት መቶ ሃያ ሦስት
+
 English: Ten thousand five hundred twenty-three
 
+
+
 Input: 84525562
+
 Amharic: ሰማንያ አራት ሚሊዮን አምስት መቶ ሃያ አምስት ሺህ አምስት መቶ ስድሳ ሁለት
+
 English: Eighty-four million five hundred twenty-five thousand five hundred sixty-two
 
 # Encoding
