@@ -1,0 +1,26 @@
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<title>Amharic number reader</title>
+
+<script src="./amharicNumberReader.js"></script>
+<script>
+	function read()
+	{
+		textValue = document.getElementById("txtValue").value;
+		
+		amharicNumber = readInAmharic(textValue);
+
+		amharicText = document.getElementById("amharicTextDispaly");
+
+		amharicText.innerHTML = amharicNumber;
+
+	}
+
+	//numberValue = _POST['txtValue'];//'9854782452156';
+	
+	//echo readInAmharic(numberValue);
+</script>
+
+
+<input type="text" id="txtValue" /><input type="button" onClick="read()" value="Read" />
+<br>
+<div id="amharicTextDispaly"></div>
